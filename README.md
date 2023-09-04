@@ -13,8 +13,10 @@ The template contains the basic features including user login/logout and a conta
 It includes all commonly used configurations that would allow you to focus on adding new
 features to your application.
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![build](https://github.com/yiisoft/yii2-app-basic/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-basic/actions?query=workflow%3Abuild)
-
+<h1>Порядок действий </h1>
+<li>1.Зайти в консоль. Перейти в нужную директорию. Клонировать гит: git clone git@github.com:d1gll/fk_test.git new_folder</li>
+<li>2.Перейти в new_folder в консоле. Установить необходимые компоненты с помощью композера: composer update</li>
+<li>3.Указать доступ к БД в файле: config/db.php</li>
+<li>4.Сделать миграцию таблиц с помоью команды: yii migrate</li>
+<li>5.Готово. Зайти в ../web/index.php</li>
 
