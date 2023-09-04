@@ -19,14 +19,14 @@ class m230902_114637_create_statistic_table extends Migration
             'point' => $this->integer()->notNull(),
         ]);
 
-        // creates index for column `author_id`
+
         $this->createIndex(
             'idx-statistic-id_name',
             'statistic',
             'id_name'
         );
 
-        // add foreign key for table `user`
+
         $this->addForeignKey(
             'fk-statistic-id_name',
             'statistic',
@@ -36,14 +36,14 @@ class m230902_114637_create_statistic_table extends Migration
             'CASCADE'
         );
 
-        // creates index for column `category_id`
+
         $this->createIndex(
             'idx-statistic-id_char',
             'statistic',
             'id_char'
         );
 
-        // add foreign key for table `category`
+
         $this->addForeignKey(
             'fk-statistic-id_char',
             'statistic',
