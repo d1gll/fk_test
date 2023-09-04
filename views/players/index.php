@@ -32,8 +32,6 @@
                                 '1'=>1,
                                 '2'=>2,
                                 '3'=>3,
-                                '4'=>4,
-                                '5'=>5,
                             ];
                             echo  $form->field($model, 'point')->dropDownList($points, ['id' => 'point_list']);?>
                         </div>
